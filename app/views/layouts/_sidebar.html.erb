@@ -1,0 +1,21 @@
+<div class="sidebar col-md-2 col-sm-1 ">			
+	<div class="sidebar-collapse collapse">
+		<div class="nav-sidebar title"><span>Main Menu</span></div>
+		<ul class="nav nav-sidebar">
+			<li><a href="<%= root_path %>">
+				<i class="fa fa-bar-chart-o"></i>
+				<span class="hidden-sm text"> Dashboard</span></a>
+			</li>	
+			
+			<li>
+				<a class="dropmenu" href="<%= home_submenu1_path %>"><i class="fa fa-eye"></i><span class="hidden-sm text"> UI Features</span> <span class="chevron closed"></span></a>
+				<ul>
+					<li><a class="submenu" href="<%= home_submenu1_path %>"><i class="fa fa-eye"></i><span class="hidden-sm text"> Sliders & Progress</span></a></li>
+					<li><a class="submenu" href="<%= home_submenu2_path %>"><i class="fa fa-eye"></i><span class="hidden-sm text"> Nestable Lists</span></a></li>
+					<li><a class="submenu" href="<%= home_submenu3_path %>"><i class="fa fa-eye"></i><span class="hidden-sm text"> Elements</span></a></li>
+				</ul>
+			</li>				
+		</ul>
+	</div>
+	<a href="<%= root_path %>" id="main-menu-min" class="full visible-md visible-lg"><i class="fa fa-angle-double-left"></i></a>
+</div>

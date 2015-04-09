@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: PIMS_development
+  pool: 5
+  username: postgres
+  password: ankita
+  host: localhost
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: PIMS_test
+  pool: 5
+  username: postgres
+  password: ankita
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: PIMS_production
+  pool: 5
+  username: postgres
+  password: ankita
